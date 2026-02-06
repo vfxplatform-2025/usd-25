@@ -1,0 +1,75 @@
+# Build directories
+build/
+buildAll/
+
+# Source directories (extracted source archives)
+source/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Build artifacts
+stamp.*
+config.log
+config.status
+config.h
+libtool
+*.la
+*.libs/
+
+# Ninja build files
+ninja.log
+build.ninja
+rules.ninja
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*~
+*.backup
+*.bak
+*_backup
+*_back
+
+# Test files
+conftest*
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json

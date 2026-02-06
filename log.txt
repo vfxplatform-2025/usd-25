@@ -1,0 +1,131 @@
+PART_NAME is None
+[rocky9]
+-- The C compiler identification is GNU 11.5.0
+-- The CXX compiler identification is GNU 11.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found Boost: /core/Linux/APPZ/packages/boost/1.85.0/python-3.11/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0")
+-- Found Python3: /core/Linux/APPZ/packages/python/3.11.9/bin/python3.11 (found version "3.11.9") found components: Interpreter Development Development.Module Development.Embed
+-- Found Jinja2
+-- Using default system allocator because PXR_MALLOC_LIBRARY is unspecified
+-- Found OpenImageIO: /core/Linux/APPZ/packages/oiio/3.0.3.0/python-3.11/lib64/libOpenImageIO.so;/core/Linux/APPZ/packages/oiio/3.0.3.0/python-3.11/lib64/libOpenImageIO_Util.so (found version "3.0.3")
+-- Found OpenColorIO: /core/Linux/APPZ/packages/ocio/2.5.0/python-3.11/lib64/libOpenColorIO.so (found version "2.5.0")
+CMake Deprecation Warning at cmake/defaults/Packages.cmake:191 (cmake_policy):
+  The OLD behavior for policy CMP0072 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (include)
+
+
+-- Found OpenGL: /usr/lib64/libOpenGL.so
+-- Found PTex: /core/Linux/APPZ/packages/ptex/2.4.2/include (found version "4.1.4")
+-- Found OpenVDB: /core/Linux/APPZ/packages/openvdb/13.0.0/python-3.11/include
+-- Found X11: /core/Linux/APPZ/packages/xproto/7.0.31/include
+-- Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so
+-- Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found PySide6: with /core/Linux/APPZ/packages/python/3.11.9/bin/python3.11, will use /core/Linux/APPZ/packages/pyside6/6.9.1/python-3.11/bin/pyside6-uic for pyside-uic binary
+-- Found PySide: True
+-- Found PyOpenGL
+-- Found PyOpenGL: True
+-- Found Alembic: /core/Linux/APPZ/packages/alembic/1.8.7/python-3.11/lib64/libAlembic.so
+-- C++ namespace configured to (external) pxr, (internal) pxrInternal_v0_25_11
+-- Skipping validation of gf generated code because PXR_VALIDATE_GENERATED_CODE=OFF
+-- Skipping Draco-based usddiff tests because PXR_BUILD_DRACO_PLUGIN=OFF
+-- Skipping hgiMetal because PXR_BUILD_GPU_SUPPORT or PXR_ENABLE_METAL_SUPPORT is OFF
+-- Skipping hgiVulkan because PXR_BUILD_GPU_SUPPORT or PXR_ENABLE_VULKAN_SUPPORT is OFF
+-- Configuring done (2.4s)
+-- Generating done (0.7s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    JPEG_ROOT
+    OPENSUBDIV_ROOT_DIR
+    Qt6_DIR
+    TBB_ROOT_DIR
+
+
+-- Build files have been written to: /home/m83/chulho/usd/25.11/build/python-3.11/arnold-7.4.2.0
+=== USD CMake build ===
+[RUN] cmake --build . --parallel 24  (cwd=/home/m83/chulho/usd/25.11/build/python-3.11/arnold-7.4.2.0)
++++++++  M83 VFX studio  +++++++
+ stableDiff   : StableDiffusion Default
+ stableXL     : StableDiffusion ComfyUI
+ unreal : Unreal Engine 5.3
+ m24    : Maya 2024
+ m23    : Maya 2023
+ m8     : Maya 2018
+ smash  : auto ref change in Maya
+ mari6  : mari 6
+ texi   : Texture Image Convert Tool
+ 3de6   : 3DEqualizer4 r6b3
+ 3de8   : 3DEqualizer4 r8b12
+ n14    : Nuke14
+ h953   : Houdini19.5.303
+ h95    : Houdini19.5.435
+ h957   : Houdini19.5.752
+ h25    : Houdini20.5.278
+ sub    : substance
+ st     : SpeedTree
+ rv     : rvplayer
+ vlc    : VLC Player
+ hi     : hiero
+ mr     : make mov review
+ yslow  : checking system
+ kfarm  : Kill Render farm Process
+ his    : Win show path To Linux show path
+ lin    : Win show path To Linux show path
+ lnl    : lists up Nuke Read Nodes
+ sw     : Install Software
+ onion  : onion
+ manday : mandayManager (Timelog)
++++++++++++++++++++++++++++++++++++
+PART_NAME is None
+[rocky9]
+[4531/4886] Building CXX object pxr/imaging/hdSt/CMakeFiles/hdSt.dir/materialXFilter.cpp.o
+FAILED: pxr/imaging/hdSt/CMakeFiles/hdSt.dir/materialXFilter.cpp.o
+/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++ -DBOOST_NO_CXX98_FUNCTION_BASE -DGLX_GLXEXT_PROTOTYPES -DGL_GLEXT_PROTOTYPES -DHDST_EXPORTS=1 -DMFB_ALT_PACKAGE_NAME=hdSt -DMFB_PACKAGE_MODULE=HdSt -DMFB_PACKAGE_NAME=hdSt -DOPENSUBDIV_HAS_GLSL_COMPUTE -DOPENSUBDIV_HAS_GLSL_TRANSFORM_FEEDBACK -DOPENSUBDIV_HAS_OPENGL -DOPENSUBDIV_HAS_PATCH_SHADER_SOURCE_GLSL -DOPENSUBDIV_HAS_TBB -DPXR_BOOST_PYTHON_NO_PY_SIGNATURES -DPXR_BUILD_LOCATION=usd -DPXR_GL_SUPPORT_ENABLED -DPXR_MATERIALX_SUPPORT_ENABLED -DPXR_OCIO_PLUGIN_ENABLED -DPXR_OIIO_PLUGIN_ENABLED -DPXR_OPENVDB_SUPPORT_ENABLED -DPXR_PLUGIN_BUILD_LOCATION=../plugin/usd -DPXR_PTEX_SUPPORT_ENABLED -DPXR_X11_SUPPORT_ENABLED -DhdSt_EXPORTS -I/home/m83/chulho/usd/25.11/build/python-3.11/arnold-7.4.2.0/pxr/imaging/hdSt -I/home/m83/chulho/usd/25.11/source/OpenUSD-25.11/pxr/imaging/hdSt -I/home/m83/chulho/usd/25.11/build/python-3.11/arnold-7.4.2.0/include -isystem /core/Linux/APPZ/packages/ptex/2.4.2/include -isystem /core/Linux/APPZ/packages/python/3.11.9/include/python3.11 -isystem /core/Linux/APPZ/packages/tbb/2022.2.0/include -isystem /core/Linux/APPZ/packages/opensubdiv/3.6.1/python-3.11/include -isystem /core/Linux/APPZ/packages/materialx/1.39.3/python-3.11/include -Wall -Wformat-security -Wmismatched-tags -pthread -Wno-deprecated -Wno-deprecated-declarations -Wno-unused-local-typedefs -Wno-placement-new -Wno-maybe-uninitialized -Wno-class-memaccess  -O3 -DNDEBUG -std=c++17 -fPIC -MD -MT pxr/imaging/hdSt/CMakeFiles/hdSt.dir/materialXFilter.cpp.o -MF pxr/imaging/hdSt/CMakeFiles/hdSt.dir/materialXFilter.cpp.o.d -o pxr/imaging/hdSt/CMakeFiles/hdSt.dir/materialXFilter.cpp.o -c /home/m83/chulho/usd/25.11/source/OpenUSD-25.11/pxr/imaging/hdSt/materialXFilter.cpp
+/home/m83/chulho/usd/25.11/source/OpenUSD-25.11/pxr/imaging/hdSt/materialXFilter.cpp:31:10: fatal error: MaterialXRender/Util.h: 그런 파일이나 디렉터리가 없습니다
+   31 | #include <MaterialXRender/Util.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[4554/4886] Building CXX object pxr/usd/usdPhysics/CMakeFiles/_usdPhysics.dir/wrapParseUtils.cpp.o
+ninja: build stopped: subcommand failed.
+Traceback (most recent call last):
+  File "/home/m83/chulho/usd/25.11/rezbuild.py", line 504, in <module>
+    build(
+  File "/home/m83/chulho/usd/25.11/rezbuild.py", line 428, in build
+    run_cmd(f"cmake --build . --parallel {multiprocessing.cpu_count()}", cwd=build_path, env=env)
+  File "/home/m83/chulho/usd/25.11/rezbuild.py", line 16, in run_cmd
+    subprocess.run(
+  File "/usr/lib64/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['bash', '-lc', 'cmake --build . --parallel 24']' returned non-zero exit status 1.
+00:57:48 ERROR    BuildError: The custom build system failed.
+[m83@chulho 25.11]$
+
