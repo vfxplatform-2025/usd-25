@@ -5,20 +5,23 @@ authors = ["Pixar Animation Studios"]
 description = "Universal Scene Description (OpenUSD) with Arnold plugin support"
 
 variants = [
-    ["python-3.11", "arnold-7.4.2.0"],
-    ["python-3.12", "arnold-7.4.2.0"],
-    ["python-3.13", "arnold-7.4.2.0"],
+    ["python-3.9",  "arnold-7.4.2.0", "imath-3.1.9", "openvdb-11.0.0"],
+    ["python-3.10", "arnold-7.4.2.0", "imath-3.1.9", "openvdb-11.0.0"],
+    ["python-3.10", "arnold-7.4.2.0", "imath-3.2.0", "openvdb-11.0.0"],
+    ["python-3.11", "arnold-7.4.2.0", "imath-3.1.9", "openvdb-13.0.0"],
+    ["python-3.11", "arnold-7.4.2.0", "imath-3.2.0", "openvdb-13.0.0"],
+    ["python-3.12", "arnold-7.4.2.0", "imath-3.1.9", "openvdb-13.0.0"],
+    ["python-3.12", "arnold-7.4.2.0", "imath-3.2.0", "openvdb-13.0.0"],
+    ["python-3.13", "arnold-7.4.2.0", "imath-3.2.0", "openvdb-13.0.0"],
 ]
 
 requires = [
     "boost-1.85.0",
     "tbb-2022.2.0",
     "openexr-3.3.3",
-    "imath-3.2.0",
     "oiio-3.0.3.0",
     "materialx-1.39.3",
     "opensubdiv-3.6.1",
-    "openvdb-13.0.0",
     "alembic-1.8.7",
     "ptex-2.4.2",
     "pyside6-6.9.1",
